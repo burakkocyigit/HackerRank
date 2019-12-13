@@ -10,8 +10,7 @@ namespace ConsoleApp7
     {
         static void Main(string[] args)
         {
-            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp))
-        ;
+            int[] arr = Array.ConvertAll(Console.ReadLine().Split(' '), arrTemp => Convert.ToInt32(arrTemp));
             miniMaxSum(arr);
         }
 
